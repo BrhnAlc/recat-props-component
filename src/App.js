@@ -8,9 +8,12 @@ function App() {
   return (
     <div className="App">
    <h2>Giriş Formu</h2>
-   <Input/>
+   
+   <Form>
+   <Input type={"text"} placeHolder={"Kullanıcı Adı"}/>
+   <Input type={"password"} placeHolder={"Şifreniz"}/>
    <Button/>
-   <Form/>
+   </Form>
     </div>
   );
 }

@@ -1,10 +1,10 @@
 
+import "./form.css"
 
 
-
-const Form = () => {
+const Form = ({children}) => {
   return (
-    <div>Form</div>
+    <div className="form">{children}</div>
   )
 }
 

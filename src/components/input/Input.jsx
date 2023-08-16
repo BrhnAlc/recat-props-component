@@ -1,14 +1,13 @@
 
 
+import "./İnput.css"
 
-
-const Input = () => {
+const Input = ({type ,placeHolder}) => {
   return (
-    <div>
-     <input type="text" />
-     
-        
-    </div>
+    <>
+     <input className="input" type={type} placeHolder={placeHolder} />
+      
+    </>
   )
 }
 

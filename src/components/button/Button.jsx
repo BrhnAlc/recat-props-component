@@ -1,12 +1,14 @@
 
+import "./button.css"
+
 
 
 const Button = () => {
   return (
-<div>
+<>
      
-        
-</div>
+   <button className="button" >Giriş Yap</button>
+</>
   )
 }
 
