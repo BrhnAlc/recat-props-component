@@ -3,11 +3,11 @@ import "./button.css"
 
 
 
-const Button = () => {
+const Button = ({onClick}) => {
   return (
 <>
      
-   <button className="button" >Giriş Yap</button>
+   <button className="button" onClick={onClick} >Giriş Yap</button>
 </>
   )
 }
