@@ -22,7 +22,7 @@ function App() {
   }
   const handleClick=()=>{
     if(user.name ===""){
-      alert("Kullanıcı Adı Boş Geçilemez")
+      alert("Kullanıcı Adı Boş Geçilemez");
     }
     else if(user.password===""){
       alert("Şifre Boş Geçilemez");
@@ -31,7 +31,7 @@ function App() {
       alert("Kullanıcı Adı:" + user.name + "" + "parolanız:" + user.password );
     }
   }
-    
+  
   return (
     <div className="App">
    <h2>Giriş Formu</h2>
@@ -47,9 +47,9 @@ function App() {
    type={"password"}
    placeHolder={"Şifreniz"}
    value={user.password}
-   onchange={handleChange}
+   onChange={handleChange}
    />
-   <Button onclick={handleClick}/>
+   <Button onClick={handleClick}/>
    </Form>
     </div>
   );
